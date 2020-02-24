@@ -1,16 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
 
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 150%;
+    line-height: 1.4em;
     background: url("images/IMG_6769.JPG");
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
 /*    font-family: 'Alfa Slab One', cursive; */
     color: purple;
     text-transform: capitalize;
+}
+
+p   {
+}
+
+header {
+    background: white;
+    padding: 2.5%;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+main {
+    margin: 15%;
+}
+footer, footer h3 {
+    background: black;
+    padding: 0 2.5%;
+    color: white;
 }
