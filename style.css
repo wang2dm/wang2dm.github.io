@@ -8,6 +8,8 @@ body {
     line-height: 1.4em;
     background: url("images/IMG_6769.JPG");
     margin: 0;
+    color: #1a0f13;
+    color: rgba(26,15,19,1);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,6 +21,16 @@ h1, h2, h3, h4, h5, h6 {
 p   {
 }
 
+a:link {
+    color: red;
+}
+
+a:visited, a:hover {
+    color: darkred;
+}
+a:focus, a:hover {
+    background: yellow;
+}
 header {
     background: white;
     padding: 2.5%;
