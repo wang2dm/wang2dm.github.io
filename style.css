@@ -33,7 +33,7 @@ a:focus, a:hover {
 }
 header {
     background: white;
-    padding: 2.5%;
+/*    padding: 2.5%;*/
 }
 
 #primary-nav {
@@ -46,10 +46,68 @@ nav li {
 }
 
 main {
-    margin: 15%;
+/*    margin: 15%;*/
 }
 footer, footer h3 {
     background: black;
     padding: 0 2.5%;
     color: white;
 }
+
+            /* GRID LAYOUT */
+
+			main {
+				display: grid;
+				/* rows = height/vertical, columns = width/horizontal */
+			}
+
+			/* SET UP ROWS/COLUMNS USING GRID LINE NUMBERS */
+			header {
+				grid-row-start: 1;
+				grid-row-end: 2;
+				grid-column-start: 1;
+				grid-column-end: 4;
+			}
+
+			#one {
+				grid-row-start: 2;
+				grid-row-end: 3;
+				grid-column-start: 1;
+				grid-column-end: 2;
+			}
+
+			#two {
+				grid-row-start: 2;
+				grid-row-end: 3;
+				grid-column-start: 2;
+				grid-column-end: 3;
+			}
+
+			#three {
+				grid-row-start: 2;
+				grid-row-end: 3;
+				grid-column-start: 3;
+				grid-column-end: 4;
+			}
+
+			footer {
+				grid-row-start: 3;
+				grid-row-end: 4;
+				grid-column-start: 1;
+				grid-column-end: 4;
+			}
+
+			/* SET UP ROWS/COLUMNS USING GRID AREA NAMES */
+			/*#one { grid-area: header; }
+			#two { grid-area: ads; }
+			#three { grid-area: main; }
+			#four { grid-area: links; }
+			#five { grid-area: footer; }*/
+
+			/* AESTHETICS */
+			header { background-color: red; }
+			#one { background-color: orange; }
+			#two { background-color: green; }
+			#three { background-color: blue; }
+			footer { background-color: purple; }
+
