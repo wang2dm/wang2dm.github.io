@@ -101,10 +101,12 @@
         container: 'map', // container id
         style: "mapbox://styles/mapbox/streets-v11", //YOUR TURN: choose a style: https://docs.mapbox.com/api/maps/#styles
         center: [-78.8759502, 38.4397399], // starting position [lng, lat]
-        zoom: 9, // starting zoom
+        zoom: 11, // starting zoom
         transformRequest: transformRequest
       });
 
+        // Add zoom and rotation controls to the map.
+    map.addControl(new mapboxgl.NavigationControl());
 
       map.on("load", function() {
         init();
