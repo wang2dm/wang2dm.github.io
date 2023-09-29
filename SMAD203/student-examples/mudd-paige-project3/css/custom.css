@@ -1,0 +1,67 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* KEEP THESE STYLES */
+header {
+  padding: 154px 0 100px;
+  font-family: 'Dosis Bold', Verdana, sans-serif;
+}
+
+body{
+  font-family: 'Cambria', Georgia, Times, serif;
+   color:#2c1508;
+   background-color: #fbfaf2;
+ }
+h1{
+  font-family: 'Dosis Bold', Verdana, sans-serif;
+  color:rgb(246, 244, 242);
+  text-transform: lowercase;
+  font-size: 2.5em;
+}
+h2, h3, h4, h6 {
+  font-family: 'Dosis Bold', Verdana, sans-serif;
+  color:#6a894e;
+  text-transform: lowercase;
+  font-size: 1.8em;
+}
+h5{
+  font-size: 1.2;
+  font-family: 'Dosis Bold', Verdana, sans-serif;
+  color:#506d37;
+}
+#my-work{
+  text-align: right;
+}
+a:link {
+  color:#506d37;
+}
+a:visited{
+  color:#324720;
+}
+a:hover{
+  text-decoration: none;
+}
+.bg-main, .btn-outline-main{
+  background-color: #506d37;
+  color:#fbfaf2;
+}
+.btn-outline-main a:link{
+  color: rgb(246, 244, 242);
+}
+.btn-outline-main a:visited{
+  color: #fbfaf2;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 100px 0;
+}
+/* END OF KEEP THESE STYLES */
